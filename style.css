@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+}
+
+.tab-bar {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.tab-bar button {
+  flex: 1;
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+
+.tab {
+  padding: 20px;
+  padding-bottom: 70px;
+}
+
+.photo {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border: 2px solid #333;
+}
